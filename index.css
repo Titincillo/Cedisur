@@ -1,0 +1,22 @@
+.container{
+    background: rgb(43, 237, 175);
+}
+.container .row div{
+    border: 1px solid white;
+    height: 100px;
+}
+.container div img{
+    width: 100px;
+}
+
+.container-yellow{
+    background: yellowgreen;
+}
+
+.container .row div{
+    background:red;
+}
+.col-6{
+    border: 1px solid white;
+    
+}

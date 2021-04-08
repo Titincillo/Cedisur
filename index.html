@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Cedisur</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-offset="40">
+
+<!-- header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">  
+        <div class="container">
+             <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="Logo cedisur">
+            </a>
+            <button class="navbar-toggler align-items-center" type="button" data-toggle="collapse" data-target="#myNavbar">
+              <span class="navbar-toggler-icon align-items-center"></span>
+            </button>
+             <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>              
+                </ul>        
+             </div>
+        </div>
+    </nav>
+    <!-- Carrusel -->
+     <!--Main-->
+     <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/13.jpg" alt="main1">
+              </div>
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/15.jpg" alt="main2">
+              </div>
+              <div class="carousel-item active">
+                  <img class="d-block w-100" src="./assets/img/11.jpg" alt="main3">
+              </div>
+              <div class="overlay">
+                  <div class="container d-flex h-100 align-items-center justify-content-center">
+                      <div class="row align-items-center">
+                          <div class="col-md-6 offset-md-6 text-center text-md-right">
+                              <h1 class="">Quienes somos?</h1>
+                              <p>
+                                Centro de imagenología ubicado en la comuna de Angol - Región de la Araucanía, que realiza exámenes de análisis clínicos con tecnología de vanguardia y un equipo profesional de excelencia. Queremos brinda a nuestros pacientes una atención de calidad, digna y humana y evitar el alto costo que significa el traslado para realizar exámenes en otras ciudades
+
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> 
+  </main>
+<!--Main-->
+
+<!-- Servicios -->
+  <section id="servicios" class="mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+            <h2>Servicios</h2>
+        </div>    
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4 ">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="./assets/img/16.jpg" alt="Imagen resonancia">
+              <div class="card-body">
+                <h5 class="card-title">Resonancia Digital</h5>
+                <p class="card-text">
+                  La radiología convencional o comúnmente llamada radiografía es la modalidad de diagnóstico por imágenes más utilizada en la práctica clínica.
+                </p>
+                <p>
+                  Nuestro servicio de imagenología cuenta con un equipo moderno de radiología digital indirecta y sus exámenes serán interpretados por médicos especialistas (Radiólogos).
+                </p> 
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 ">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="./assets/img/3.jpg" alt="Imagen resonancia">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Resonancia Magnetica
+                </h5>
+                <p class="card-text">La resonancia magnética es un examen de alta complejidad que se basa en la utilización de campos magnéticos y señales de radiofrecuencia para producir imágenes médicas, con gran detalle anatómico de los órganos o estructuras que se quieran evaluar. Una de las principales características es que no utiliza radiaciones ionizantes.</p>
+                  <p> El servicio de resonancia magnética cuenta con un resonador magnético marca Siemens de 1.5 Tesla (potencia de campo magnético), boninas multicanales que permiten obtener imágenes de gran calidad, además de una sala especialmente acondicionada para brindar un ambiente acogedor durante la realización del estudio.</p>
+                 
+              </div>          
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 ">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="./assets/img/5.jpg" alt="Imagen multicorte">
+              <div class="card-body">
+                <h5 class="card-title">Scaner Multicorte (TAC)</h5>
+                <p class="card-text">El servicio de Scanner cuenta con un equipo multicorte de 16 canales marca Siemens, de última generación y con los programas de procesamiento de imágenes más avanzada en su tipo.</p>
+                <p>La duración del examen depende de la parte del cuerpo solicitada o el diagnóstico, ya que algunas requieren del llamado medio de contraste que permite una imagen más nítida del área a estudiar.</p>
+                
+              </div>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Servicios -->
+<!-- Contacto y dirección -->
+<div id="contacto" class="container-fluid text-dark mt-4" >
+	<div class="row">
+        	<div class="col-12 col-lg p-0 margenes" >
+          	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1932.9835965703257!2d-72.69395797415865!3d-37.805779921404906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1617373429023!5m2!1ses!2scl"
+              width="100%" height="450px" allowfullscreen="" loading="lazy">
+            </iframe>
+         	</div>
+          <div id="social" class="col-12 col-lg margenes">
+            <div class="row ">
+              <div class="col-12">
+                <h2 class="text-center ">Contactanos:</h2>
+            </div>                        
+            <div class="col-6 mt-4">
+              <h3>Horario</h3>
+              <p> 9:30 AM a 20:00 PM</p>
+            </div>
+            <div class="col-6 mt-4">
+              <a href="" class=""><img src="./assets/icons/viber (1).png" alt="">45273507 - 2734502</a> 
+            </div>          
+            <div class="col-6 mt-4">
+              <a href="mailto:contacto@cedisur.cl" target="_blank"><img src="./assets/icons/mail.png" alt="">contacto@cedisur.cl</a>    
+            </div>
+            <div class="col-6 mt-4">
+              <a class="" href="" target="_blank"><img src="./assets/icons/facebook.png" alt="">Facebook</a>
+            </div>
+            <div class="col-6 mt-4 mb-4">
+              <a href="https://www.instagram.com/cedisur_angol/ " target="_blank"><img src="./assets/icons/instagram.png" alt="">Instagram</a>
+            </div>          
+            <div class="col-6 mt-4 mb-4">
+              <a href="https://api.whatsapp.com/send?phone=+56948048299" target="_blank"><img src="./assets/icons/whatsapp (2).png" alt="">Whatsapp</a>              
+            </div>               
+          </div>
+	  </div>
+  </div>
+</div>
+<!-- Contacto y dirección -->
+<!-- Footer -->
+<footer id="footer" class="pb-2 pt-2">
+  <div class="container">
+      <div class="row text-center">
+          <div class="col-12 pb-2 col-lg">
+          </div>
+          <div class="col-12 pb-2 pt-2 col-lg">
+            <a href="#">®Cedisur 2021</a>
+            <p class="text-white">Centro de imagenología</p>
+          </div>
+          <div class="col-12 pb-2 col-lg">
+              <a href="#"></a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
