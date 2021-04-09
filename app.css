@@ -8,10 +8,17 @@
 #header img{
     width: 450px;
 }
+
 #social img{
     height:50px;
 
 }
+@media only screen and (max-width: 500px) {
+    .header img{
+        width: 300px;
+    }
+  }
+
 #social a{
     text-decoration: none;
     color:black;
@@ -27,24 +34,10 @@
 #carousel{
     position:relative
 }
-
 .margenes {
     border:1px solid gray;   
     background:f8f9fa;
-
 }
-@include media-breakpoint-down(md) {
-    .background-primary-landing {
-      background-color: $color-blue !important;
-    }
-    .h1-color-primary {
-      color:$color-white;
-    }
-    .p-text-landing {
-      color:$color-white;
-    }
-  }
-
 #carousel .overlay{
     z-index: 1;
     position: absolute;
